@@ -35,7 +35,7 @@ def cls():
     windows = 'cls'
     os.system([linux,windows][os.name == 'nt'])
 
-cls()
+cls
 
 os.system(['','color D'][os.name == 'nt'])
 
